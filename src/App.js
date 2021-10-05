@@ -1,5 +1,5 @@
 import React from "react";
-// import PortfolioContainer from "./components/PortfolioContainer";
+import NavBar from "./components/NavBar/NavBar.js";
 
 function App() {
   return (
