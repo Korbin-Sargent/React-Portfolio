@@ -3,22 +3,26 @@ import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Router>
+        <switch>
+          <Route exact path={["/", "/AboutMe", "/Home"]}>
+            <AboutMe />
+          </Route>
+          <Route exact path="/Work">
+            <Work />
+          </Route>
+          <Route exact path="/ContactMe">
+            <ContactMe />
+          </Route>
+          <Route exact path={"/Resume"}>
+            <Resume />
+          </Route>
+        </switch>
+      </Router>
+      <Footer />
+    </>
   );
 }
 
