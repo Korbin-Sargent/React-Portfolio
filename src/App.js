@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar/NavBar.js";
+import AboutMe from "./components/AboutMe/AboutMe.js";
+import ContactMe from "./components/ContactMe/Contact.js";
 
 function App() {
   return (

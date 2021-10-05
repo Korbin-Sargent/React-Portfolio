@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils";
 
-const ContactForm = () => {
+const ContactMe = () => {
   //defining state with change method and default value
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -95,4 +95,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ContactMe;
