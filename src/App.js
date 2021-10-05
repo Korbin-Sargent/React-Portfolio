@@ -10,8 +10,8 @@ function App() {
           <Route exact path={["/", "/AboutMe", "/Home"]}>
             <AboutMe />
           </Route>
-          <Route exact path="/Work">
-            <Work />
+          <Route exact path="/Projects">
+            <Projects />
           </Route>
           <Route exact path="/ContactMe">
             <ContactMe />
