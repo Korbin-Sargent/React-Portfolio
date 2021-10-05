@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { Button, Form } from "react-bootstrap";
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../../utils";
 
 const ContactForm = () => {
   //defining state with change method and default value
@@ -40,6 +39,10 @@ const ContactForm = () => {
   return (
     <>
       <h1>Contact Me</h1>
+      <h2 className="mt-3">410-212-59040</h2>
+      <h2 className="mt-1">
+        <a href="mailto:korbinksargent@gmail.com">korbinksargent@gmail.com</a>
+      </h2>
       <form>
         <div className="container mb-3">
           <label for="exampleInputName1">Name:</label>
@@ -73,12 +76,23 @@ const ContactForm = () => {
             type="text"
             class="form-control"
             rows="3"
-            id="exampleInputEmail1"
+            id="exampleInputMessage"
             onChange={handleInputChange}
             placeholder="Enter Your Message Here"
           />
+        </div>
+        <div>
+          <button
+            type="submit"
+            class="text-center btn btn-primary"
+            onClick={handleFormSubmit}
+          >
+            Submit
+          </button>
         </div>
       </form>
     </>
   );
 };
+
+export default ContactForm;
