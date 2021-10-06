@@ -2,6 +2,8 @@ import React from "react";
 import NavBar from "./components/NavBar/NavBar.js";
 import AboutMe from "./components/AboutMe/AboutMe.js";
 import ContactMe from "./components/ContactMe/ContactMe.js";
+import Projects from "./components/Projects/Projects.js";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
