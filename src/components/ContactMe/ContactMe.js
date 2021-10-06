@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../../utils/validateEmail";
 
 const ContactMe = () => {
   //defining state with change method and default value
