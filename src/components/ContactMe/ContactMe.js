@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/validateEmail";
+import { Button, Form } from "react-bootstrap";
 
 const ContactMe = () => {
   //defining state with change method and default value
@@ -38,14 +39,16 @@ const ContactMe = () => {
 
   return (
     <>
-      <h1>Contact Me</h1>
-      <h2 className="mt-3">410-212-59040</h2>
-      <h2 className="mt-1">
-        <a href="mailto:korbinksargent@gmail.com">korbinksargent@gmail.com</a>
-      </h2>
-      <form>
-        <div className="container mb-3">
-          <label for="exampleInputName1">Name:</label>
+      <div className="d-flex flex-column justify-content-center align-items-center mt-5">
+        <h1>Contact Me</h1>
+        <h2 className="mt-3">410-212-59040</h2>
+        <h2 className="mt-1">
+          <a href="mailto:korbinksargent@gmail.com">korbinksargent@gmail.com</a>
+        </h2>
+      </div>
+      <Form>
+        <Form.Group className="container mb-3">
+          <Form.Label for="exampleInputName1">Name:</Form.Label>
           <input
             name="name"
             value={name}
@@ -55,9 +58,9 @@ const ContactMe = () => {
             onChange={handleInputChange}
             placeholder="Enter Your Full Name Here"
           />
-        </div>
-        <div className="container mb-3">
-          <label for="exampleInputEmail1">Email:</label>
+        </Form.Group>
+        <Form.Group className="container mb-3">
+          <Form.Label for="exampleInputEmail1">Email:</Form.Label>
           <input
             name="email"
             value={email}
@@ -67,9 +70,9 @@ const ContactMe = () => {
             onChange={handleInputChange}
             placeholder="Enter Your Email Here"
           />
-        </div>
-        <div className="container mb-3">
-          <label for="exampleFormControlTextArea1">message:</label>
+        </Form.Group>
+        <Form.Group className="container mb-3">
+          <Form.Label for="exampleFormControlTextArea1">message:</Form.Label>
           <input
             name="message"
             value={message}
@@ -80,8 +83,8 @@ const ContactMe = () => {
             onChange={handleInputChange}
             placeholder="Enter Your Message Here"
           />
-        </div>
-        <div>
+        </Form.Group>
+        <div className="d-flex flex-column justify-content-center align-items-center mt-5">
           <button
             type="submit"
             class="text-center btn btn-primary"
@@ -90,7 +93,7 @@ const ContactMe = () => {
             Submit
           </button>
         </div>
-      </form>
+      </Form>
     </>
   );
 };

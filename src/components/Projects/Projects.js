@@ -8,7 +8,12 @@ const Projects = () => {
     <>
       <h1 className="title">My Favorite Projects</h1>
       <section className="container-fluid d-flex justify-content-center">
-        <Card class="cbbody" style={{ width: "18rem" }}>
+        <Card
+          bg={"dark"}
+          text={"light"}
+          class="cbbody"
+          style={{ width: "18rem" }}
+        >
           <Card.Img
             class="samesize"
             variant="top"
@@ -32,7 +37,12 @@ const Projects = () => {
             </Button>
           </Card.Body>
         </Card>
-        <Card class="cbbody" style={{ width: "18rem" }}>
+        <Card
+          bg={"dark"}
+          text={"light"}
+          class="cbbody"
+          style={{ width: "18rem" }}
+        >
           <Card.Img
             class="samesize"
             variant="top"
@@ -56,7 +66,12 @@ const Projects = () => {
             </Button>
           </Card.Body>
         </Card>
-        <Card class="cbbody" style={{ width: "18rem" }}>
+        <Card
+          bg={"dark"}
+          text={"light"}
+          class="cbbody"
+          style={{ width: "18rem" }}
+        >
           <Card.Img
             class="samesize"
             variant="top"
