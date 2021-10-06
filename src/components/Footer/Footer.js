@@ -21,7 +21,7 @@ const Footer = () => {
         </a>
         <a href="https://www.linkedin.com/in/korbin-sargent-951b4913b/">
           <img
-            src={"/images/github_logo.png"}
+            src={"/images/linkedin_logo.png"}
             alt="Link to LinkedIn"
             className="icon"
           />
