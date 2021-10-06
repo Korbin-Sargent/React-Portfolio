@@ -85,13 +85,13 @@ const ContactMe = () => {
           />
         </Form.Group>
         <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-          <button
+          <Button
             type="submit"
             class="text-center btn btn-primary"
             onClick={handleFormSubmit}
           >
             Submit
-          </button>
+          </Button>
         </div>
       </Form>
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+import { ListGroup } from "react-bootstrap";
 
 const Resume = () => {
   return (
@@ -8,30 +9,30 @@ const Resume = () => {
           href="./images/KorbinKSargentResume.pdf"
           className="btn btn-success active btn-lg mt-4 p-5 resumeBtn"
           target="_blank"
-          download="newfilename"
+          download="Korbin Sargent Resume"
         >
           Resumé PDF
         </a>
       </h1>
-      <ul className="text-center">
+      <ListGroup variant="flush" className="text-center">
         List of Proficiencies
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>APIs</li>
-        <li>Node.js</li>
-        <li>OOP</li>
-        <li>Express,js</li>
-        <li>SQL</li>
-        <li>ORM</li>
-        <li>MVC</li>
-        <li>NoSQL</li>
-        <li>PWA</li>
-        <li>MongoDB</li>
-        <li>Mongo Atlas</li>
-        <li>React</li>
-        <li>and MERN Stack.</li>
-      </ul>
+        <ListGroup.Item>HTML</ListGroup.Item>
+        <ListGroup.Item>CSS</ListGroup.Item>
+        <ListGroup.Item>Javascript</ListGroup.Item>
+        <ListGroup.Item>APIs</ListGroup.Item>
+        <ListGroup.Item>Node.js</ListGroup.Item>
+        <ListGroup.Item>OOP</ListGroup.Item>
+        <ListGroup.Item>Express,js</ListGroup.Item>
+        <ListGroup.Item>SQL</ListGroup.Item>
+        <ListGroup.Item>ORM</ListGroup.Item>
+        <ListGroup.Item>MVC</ListGroup.Item>
+        <ListGroup.Item>NoSQL</ListGroup.Item>
+        <ListGroup.Item>PWA</ListGroup.Item>
+        <ListGroup.Item>MongoDB</ListGroup.Item>
+        <ListGroup.Item>Mongo Atlas</ListGroup.Item>
+        <ListGroup.Item>React</ListGroup.Item>
+        <ListGroup.Item>MERN Stack</ListGroup.Item>
+      </ListGroup>
     </>
   );
 };
