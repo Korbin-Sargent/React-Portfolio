@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 
 const AboutMe = () => {
   return (
@@ -16,10 +17,11 @@ const AboutMe = () => {
           linksContainer "
       >
         <h2 className="mt-3 mb-3">Korbin Sargent</h2>
-        <img
+        <Image
           src="./images/Profile_pic.jpeg"
           class="img-fluid mainImg"
           alt="Korbin Sargent"
+          rounded
         />
         <p className="col-8 pt-2 mt-4">
           I’m a full-stack web developer with experience building both the
