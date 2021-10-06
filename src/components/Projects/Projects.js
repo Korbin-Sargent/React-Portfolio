@@ -1,4 +1,5 @@
 import React from "react";
+import "./Projects.css";
 
 import { Card, Button } from "react-bootstrap";
 
@@ -7,7 +8,7 @@ const Projects = () => {
     <>
       <h1 className="title">My Favorite Projects</h1>
       <section className="container-fluid d-flex justify-content-center">
-        <card class="cbBody" style={{ width: "18rem" }}>
+        <Card class="cbbody" style={{ width: "18rem" }}>
           <Card.Img
             class="samesize"
             variant="top"
@@ -22,16 +23,16 @@ const Projects = () => {
             >
               Deployed Link
             </Button>
+            <Button
+              href="https://github.com/Korbin-Sargent/git-outside"
+              target="_blank"
+              variant="outline-primary"
+            >
+              GitHub Link
+            </Button>
           </Card.Body>
-          <Button
-            href="https://github.com/Korbin-Sargent/git-outside"
-            target="_blank"
-            variant="outline-primary"
-          >
-            GitHub Link
-          </Button>
-        </card>
-        <card class="cbBody" style={{ width: "18rem" }}>
+        </Card>
+        <Card class="cbbody" style={{ width: "18rem" }}>
           <Card.Img
             class="samesize"
             variant="top"
@@ -46,35 +47,39 @@ const Projects = () => {
             >
               Deployed Link
             </Button>
-          </Card.Body>
-          <Button
-            href="https://github.com/Korbin-Sargent/Dine-In"
-            target="_blank"
-            variant="outline-primary"
-          >
-            GitHub Link
-          </Button>
-        </card>
-        <card class="cbBody" style={{ width: "18rem" }}>
-          <Card.Img class="samesize" variant="top" src={"/images/GitOutside"} />
-          <Card.Body>
-            <Card.Title class="projecttitle">Tech Blog</Card.Title>
             <Button
-              href="https://mighty-everglades-76044.herokuapp.com/"
+              href="https://github.com/Korbin-Sargent/Dine-In"
+              target="_blank"
+              variant="outline-primary"
+            >
+              GitHub Link
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card class="cbbody" style={{ width: "18rem" }}>
+          <Card.Img
+            class="samesize"
+            variant="top"
+            src={"/images/fitness_tracker.png"}
+          />
+          <Card.Body>
+            <Card.Title class="projecttitle">Fitness Tracker</Card.Title>
+            <Button
+              href="https://quiet-depths-83393.herokuapp.com/"
               target="_blank"
               variant="outline-primary"
             >
               Deployed Link
             </Button>
+            <Button
+              href="https://github.com/Korbin-Sargent/Fitness-Tracker"
+              target="_blank"
+              variant="outline-primary"
+            >
+              GitHub Link
+            </Button>
           </Card.Body>
-          <Button
-            href="https://github.com/Korbin-Sargent/Tech-Blog"
-            target="_blank"
-            variant="outline-primary"
-          >
-            GitHub Link
-          </Button>
-        </card>
+        </Card>
       </section>
     </>
   );

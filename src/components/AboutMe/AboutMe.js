@@ -19,7 +19,7 @@ const AboutMe = () => {
         <img
           src="./images/Profile_pic.jpeg"
           class="img-fluid mainImg"
-          alt="image of Korbin Sargent"
+          alt="Korbin Sargent"
         />
         <p className="col-8 pt-2 mt-4">
           I’m a full-stack web developer with experience building both the
