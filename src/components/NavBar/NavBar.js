@@ -5,9 +5,9 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 const NavBar = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="light" variant="light">
         <Container className="justify-content-center">
-          <Navbar.Brand href="/home">Korbin Sargent</Navbar.Brand>
+          <Navbar.Brand>Korbin Sargent</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/AboutMe">About Me</Nav.Link>
             <Nav.Link href="/Projects">Projects</Nav.Link>

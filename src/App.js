@@ -10,24 +10,24 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <NavBar />
-      <Router>
-        <Switch>
-          <Route exact path={["/", "/AboutMe", "/Home"]}>
-            <AboutMe />
-          </Route>
-          <Route exact path="/Projects">
-            <Projects />
-          </Route>
-          <Route exact path="/ContactMe">
-            <ContactMe />
-          </Route>
-          <Route exact path={"/Resume"}>
-            <Resume />
-          </Route>
-        </Switch>
-      </Router>
-      <Footer />
+        <NavBar />
+        <Router>
+          <Switch>
+            <Route exact path={["/", "/AboutMe"]}>
+              <AboutMe />
+            </Route>
+            <Route exact path="/Projects">
+              <Projects />
+            </Route>
+            <Route exact path="/ContactMe">
+              <ContactMe />
+            </Route>
+            <Route exact path={"/Resume"}>
+              <Resume />
+            </Route>
+          </Switch>
+        </Router>
+        <Footer />
     </>
   );
 }
