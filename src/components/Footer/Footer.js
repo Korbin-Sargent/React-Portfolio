@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <div>
-        <a href="http://www.korbinksargent@gmail.com">
+        <a href="mailto:korbinksargent@gmail.com"></a>
           <Image
             src={"/images/gmail_logo.png"}
             alt="Link to Gmail"

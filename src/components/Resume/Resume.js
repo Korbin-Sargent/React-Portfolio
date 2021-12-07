@@ -23,7 +23,7 @@ const Resume = () => {
           <ListGroup.Item>APIs</ListGroup.Item>
           <ListGroup.Item>Node.js</ListGroup.Item>
           <ListGroup.Item>OOP</ListGroup.Item>
-          <ListGroup.Item>Express,js</ListGroup.Item>
+          <ListGroup.Item>Express,JS</ListGroup.Item>
           <ListGroup.Item>SQL</ListGroup.Item>
           <ListGroup.Item>ORM</ListGroup.Item>
           <ListGroup.Item>MVC</ListGroup.Item>
