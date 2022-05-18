@@ -8,6 +8,12 @@ This web application was built using React. It provides a space to view some of 
 
 ## Technologies
 
+- Javascript
+
+-HTML
+
+-CSS
+
 - React
 
 - React-Bootstrap
