@@ -10,7 +10,7 @@ const Projects = () => {
       <section className="container-fluid d-flex justify-content-center">
         <CardGroup>
           <Card
-            border="light"
+            border="dark"
             bg={"dark"}
             text={"light"}
             class="cbbody"
