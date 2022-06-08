@@ -5,7 +5,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 const NavBar = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="light" variant="light">
         <Container className="justify-content-center">
           <Navbar.Brand>Korbin Sargent</Navbar.Brand>
           <Nav className="me-auto">
