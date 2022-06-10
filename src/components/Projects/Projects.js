@@ -6,7 +6,7 @@ import { Card, Button, CardGroup } from "react-bootstrap";
 const Projects = () => {
   return (
     <>
-      <h1 className="title">My Favorite Projects</h1>
+      <h1 className="title">Projects</h1>
       <section className="container-fluid d-flex justify-content-center">
         <CardGroup>
           <Card
