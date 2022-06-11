@@ -29,8 +29,7 @@ const AboutMe = () => {
           with JavaScript, NodeJS and React, but I am highly interested in
           Python as well. In my previous career as an environmental scientist, I
           worked with a passionate team where we developed solutions to complex
-          remediation problems. Being a builder at heart and a passionate
-          problem solver allows me to excel in a developer role. <br />
+          remediation problems. Being a builder at heart and a allows me to excel in a developer role. <br />
         </p>
       </section>
     </>
