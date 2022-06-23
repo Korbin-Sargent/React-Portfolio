@@ -27,10 +27,10 @@ const AboutMe = () => {
           I’m a full-stack web developer with experience building both the
           front-end and back-end of web applications. My primary experience is
           with JavaScript, NodeJS and React, but I am highly interested in
-          Python as well. In my previous career as an environmental scientist, I
+          expanding my knowledge base to other technologies as well. In my previous career as an environmental scientist, I
           worked with a passionate team where we developed solutions to complex
-          remediation problems. Being a builder at heart has allowed me to progress my developer skills quickly. I'm excited to be a life long learner as a member of the web development community. <br />
-        </p>
+          remediation problems. My skills as a problem solver and ability to learn quickly have allowed me
+          to excel in a developer role. Let's work together to create somethings great!</p>
       </section>
     </>
   );
