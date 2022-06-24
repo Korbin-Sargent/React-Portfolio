@@ -24,7 +24,7 @@ const AboutMe = () => {
           rounded
         />
         <p className="col-8 pt-2 mt-4">
-          I’m a full-stack web developer with experience building both the
+          I’m a full-stack web developer based out of Denver, CO. I have experience in building both the
           front-end and back-end of web applications. My primary experience is
           with JavaScript, NodeJS and React, but I am highly interested in
           expanding my knowledge base to other technologies as well. In my previous career as an environmental scientist, I
